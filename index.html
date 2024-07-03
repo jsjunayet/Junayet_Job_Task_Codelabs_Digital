@@ -3,12 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- tailwindcss Start -->
+    <!-- tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwindcss End-->
+     <!-- Daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> 
+     <!-- Include Google Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <h1 class=""></h1>
+<body class="">
+    <!-- Nabar Start -->
+   <nav class="">
+    <div class="navbar max-w-6xl mx-auto mt-2 ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Service</a></li>
+              <li><a>Blog</a></li>
+              <li><a>About us</a></li>
+            </ul>
+          </div>
+          <img class="" src="./image/logo dark.png" alt="logo">
+        </div>
+        <div class="navbar-center  hidden lg:flex">
+          <ul class="flex gap-6 menu-horizontal px-1">
+            <li><a class="text-base font-medium font-inter">Home</a></li>
+              <li><a class="text-base font-medium font-inter">Service</a></li>
+              <li><a class="text-base font-medium font-inter">Blog</a></li>
+              <li><a class="text-base font-medium font-inter">About us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+        <Button class="border border-[#343268] px-3 py-2 rounded-xl flex justify-center items-center gap-2 font-semibold">
+            <span>Appointmen</span> 
+            <img src="./image/Arrow 1.png" class=" h-3 object-cover" alt="Arrow">
+        </Button>
+        </div>
+      </div>
+   </nav>
+    <!-- Navbar End -->
+    <!-- Bannar Start -->
+    <Section class=" max-w-6xl mx-auto">
+        <div class=" my-4 mx-2">
+            <img class="w-full object-cover" src="./image/Rectangle 5.png" alt="">
+        </div>
+    </Section>
+    <!-- Bannar End -->
 </body>
 </html>
