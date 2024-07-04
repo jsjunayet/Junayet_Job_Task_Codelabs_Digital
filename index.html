@@ -15,8 +15,8 @@
 
 <body class="font-inter bg-[#F6FCFF]">
     <!-- Nabar Start -->
-    <nav class="">
-        <div class="navbar max-w-6xl mx-auto  pt-4">
+    <nav class=" mx-2 md:mx-0">
+        <div class="navbar !px-0 max-w-6xl mx-auto  pt-4">
             <div class="navbar-start">
                 <div class="dropdown ">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -52,9 +52,11 @@
     <!-- Navbar End -->
     <!-- Bannar Start -->
     <Section class=" max-w-6xl mx-auto pt-6">
-        <div class="min-h-[470px]  rounded-[43px] bg-cover bg-no-repeat" style="background: linear-gradient( #00c19e00 5%, #020043bd 90%), url('./image/Rectangle 5.png'); background-size:cover;">
+        <div class="mx-2 md:mx-0">
+          <div class="min-h-[470px]  rounded-[43px] bg-cover bg-no-repeat" style="background: linear-gradient( #00c19e00 5%, #020043bd 90%), url('./image/Rectangle 5.png');background-position: center; background-size:cover;">
+          </div>
         </div>
-        <div>
+        <div class="mx-2 md:mx-0">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-[65px] justify-center offer-section">
                 <div class="col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 row-span-12 flex flex-col p-6 max-h-[285px] rounded-[24px] bg-[#FBFBFB] border-[0.5px] shadow-lg">
                     <h2 class="text-4xl font-semibold px-2">90%</h2>
@@ -109,7 +111,7 @@
     <!-- Bannar End -->
     <!-- setion-1 start -->
     <section class=" max-w-6xl mx-auto md:mt-20 mt-10">
-        <div class=" md:flex flex-col md:flex-row ">
+        <div class="mx-2 md:mx-0 md:flex flex-col md:flex-row ">
             <div class="md:w-1/2 w-full">
                 <button class="mb-3 bg-[#FFFFF5] px-3 py-1 text-[#4D4C7B] border rounded-2xl border-[#4D4C7B]">Who we are</button>
                 <h2 class="md:text-4xl text-2xl  font-bold md:leading-[52px]  w-full md:w-[70%] ">We Help To Get Soultions</h2>
@@ -133,7 +135,7 @@
     <!-- Setion-1 End -->
     <!-- setion-2 start -->
     <section class="max-w-6xl mx-auto md:mt-28 mt-10">
-        <div class=" bg-[#FFFFF5] rounded-xl p-6">
+        <div class=" bg-[#FFFFF5] rounded-xl md:p-6 p-2">
             <div class=" grid md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-10">
                 <div class="md:space-y-7 space-y-3">
                     <button class=" bg-[#F6FCFF] px-3 py-1 text-[#000000] border rounded-2xl border-[#4D4C7B]">Service</button>
@@ -182,7 +184,7 @@
     <!-- review section Start -->
     <section class="max-w-6xl mx-auto mt-10 md:mt-20">
         <div>
-            <div>
+            <div class=" mx-2 md:mx-0">
                 <button class="mb-3 bg-[#F6FCFF] px-3 py-1 text-[#4D4C7B] border rounded-2xl border-[#4D4C7B]">Testimonial</button>
                 <h2 class=" md:text-4xl text-2xl font-semibold md:mb-8 mb-3 ">What they say about us?</h2>
                 <div class="flex flex-col md:flex-row  gap-4">
@@ -229,9 +231,6 @@
                             <div class="ml-3">
                                 <div class="text-[12px] font-semibold text-[#020043]">Sarah D, <span class=" font-normal text-[#4D4C7B]">IT Professional</span></div>
                                 <div class=" flex gap-1 mt-1 ">
-                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.769492 7.35818L2.8473 8.92503L2.0582 11.4483C1.93068 11.8396 1.92906 12.263 2.05359 12.6554C2.17813 13.0478 2.42214 13.3881 2.74925 13.6256C3.07075 13.8707 3.46037 14.002 3.86003 14C4.25969 13.9979 4.64802 13.8626 4.96713 13.6141L6.99883 12.0702L9.03112 13.6123C9.35204 13.8561 9.73955 13.9884 10.1379 13.9904C10.5363 13.9924 10.9251 13.864 11.2483 13.6235C11.5715 13.383 11.8125 13.0429 11.9367 12.652C12.0609 12.2612 12.0619 11.8397 11.9395 11.4483L11.1504 8.92503L13.2282 7.35818C13.5487 7.11622 13.7869 6.77588 13.9089 6.38576C14.0309 5.99564 14.0303 5.57569 13.9074 5.18591C13.7844 4.79613 13.5452 4.45645 13.2241 4.21538C12.903 3.97431 12.5163 3.8442 12.1192 3.84361H9.56691L8.7924 1.35111C8.67061 0.958774 8.43128 0.616511 8.10892 0.373681C7.78657 0.13085 7.39786 0 6.99883 0C6.59981 0 6.21109 0.13085 5.88874 0.373681C5.56639 0.616511 5.32706 0.958774 5.20526 1.35111L4.43075 3.84361H1.88077C1.48373 3.8442 1.09703 3.97431 0.7759 4.21538C0.454767 4.45645 0.215628 4.79613 0.0926406 5.18591C-0.0303466 5.57569 -0.0308909 5.99564 0.0910853 6.38576C0.213062 6.77588 0.451319 7.11622 0.771826 7.35818H0.769492Z" fill="#FFE03D" />
-                                    </svg>
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.769492 7.35818L2.8473 8.92503L2.0582 11.4483C1.93068 11.8396 1.92906 12.263 2.05359 12.6554C2.17813 13.0478 2.42214 13.3881 2.74925 13.6256C3.07075 13.8707 3.46037 14.002 3.86003 14C4.25969 13.9979 4.64802 13.8626 4.96713 13.6141L6.99883 12.0702L9.03112 13.6123C9.35204 13.8561 9.73955 13.9884 10.1379 13.9904C10.5363 13.9924 10.9251 13.864 11.2483 13.6235C11.5715 13.383 11.8125 13.0429 11.9367 12.652C12.0609 12.2612 12.0619 11.8397 11.9395 11.4483L11.1504 8.92503L13.2282 7.35818C13.5487 7.11622 13.7869 6.77588 13.9089 6.38576C14.0309 5.99564 14.0303 5.57569 13.9074 5.18591C13.7844 4.79613 13.5452 4.45645 13.2241 4.21538C12.903 3.97431 12.5163 3.8442 12.1192 3.84361H9.56691L8.7924 1.35111C8.67061 0.958774 8.43128 0.616511 8.10892 0.373681C7.78657 0.13085 7.39786 0 6.99883 0C6.59981 0 6.21109 0.13085 5.88874 0.373681C5.56639 0.616511 5.32706 0.958774 5.20526 1.35111L4.43075 3.84361H1.88077C1.48373 3.8442 1.09703 3.97431 0.7759 4.21538C0.454767 4.45645 0.215628 4.79613 0.0926406 5.18591C-0.0303466 5.57569 -0.0308909 5.99564 0.0910853 6.38576C0.213062 6.77588 0.451319 7.11622 0.771826 7.35818H0.769492Z" fill="#FFE03D" />
                                     </svg>
@@ -292,11 +291,11 @@
     <!-- Review Section End -->
     <!-- FAQ section Start-->
     <section class=" max-w-6xl mx-auto mt-10 md:mt-20">
-        <div>
+        <div class="md:mx-0 mx-2">
             <button class="mb-3 bg-[#F6FCFF] px-3 py-1 text-[#4D4C7B] border rounded-2xl border-[#4D4C7B]">Faq</button>
-            <h2 class=" text-4xl font-semibold mt-2 mb-6 pb-3  ">Frequntly Asked Question</h2>
+            <h2 class=" md:text-4xl text-2xl font-semibold mt-2 mb-6 pb-3  ">Frequntly Asked Question</h2>
             <div class="bg-[#FFFFF5] px-8 pb-5 pt-2 border-b-[1px] border-[#4D4C7B]">
-                <h3 class="text-[#020043] text-xl font-medium  "> What are your office hours?</h3>
+                <h3 class="text-[#020043] md:text-xl text-lg font-medium  "> What are your office hours?</h3>
             </div>
             <div class="bg-[#FFFFFF] mb-3  py-4">
                 <p class="text-[#343268] px-8 md:text-[14px]  text-[12px] md:leading-6 md:w-[90%] w-full">Our office hours vary by location, but typically we are open Monday through Friday from 8:00 AM to 5:00 PM. Some locations may offer extended hours or weekend appointments. Please contact your nearest clinic for specific hours.</p>
@@ -304,28 +303,28 @@
             <div>
                 <div class="collapse collapse-arrow bg-[#FFFFF5] px-5">
                     <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl text-[#020043] font-medium">How can I schedule an appointment?</div>
+                    <div class="collapse-title md:text-xl text-lg text-[#020043] font-medium">How can I schedule an appointment?</div>
                     <div class="collapse-content">
                         <p>hello</p>
                     </div>
                 </div>
                 <div class="collapse collapse-arrow mt-3 bg-[#FFFFF5] px-5">
                     <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl text-[#020043] font-medium">Do you accept insurance?</div>
+                    <div class="collapse-title md:text-xl text-lg text-[#020043] font-medium">Do you accept insurance?</div>
                     <div class="collapse-content">
                         <p>hello</p>
                     </div>
                 </div>
                 <div class="collapse mt-3 collapse-arrow bg-[#FFFFF5] px-5">
                     <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl text-[#020043] font-medium">What should I bring to my appointment?</div>
+                    <div class="collapse-title md:text-xl text-lg text-[#020043] font-medium">What should I bring to my appointment?</div>
                     <div class="collapse-content">
                         <p>hello</p>
                     </div>
                 </div>
                 <div class="collapse mt-3 collapse-arrow bg-[#FFFFF5] px-5">
                     <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl text-[#020043] font-medium">Do you offer telemedicine appointments?</div>
+                    <div class="collapse-title md:text-xl text-lg text-[#020043] font-medium">Do you offer telemedicine appointments?</div>
                     <div class="collapse-content">
                         <p>hello</p>
                     </div>
@@ -336,26 +335,29 @@
     <!-- FAQ section End -->
     <!-- Offer Section start -->
     <section class=" max-w-6xl mx-auto py-10 md:py-20">
-        <div style="background: linear-gradient(270deg, #00c19e00 0%, #020043bd 47%), url('/image/Rectangle 32.png'); background-repeat: no-repeat; border-radius:20px; background-size: cover;">
-            <div class=" relative py-24 px-12 flex justify-between items-center">
-                <div class="md:w-2/5 w-full text-white">
-                    <h1 class="text-4xl font-semibold mb-6 leading-[54px] md:w-[70%] w-full">Get Your First Appointment at 50% Off!</h1>
-                    <div class="flex gap-6">
-                        <button class="py-2 px-4 bg-yellow-400 rounded-lg">Appointment <span>↗</span></button>
-                        <button class="py-2 px-4 border border-white rounded-lg text-white">Learn More <span>↗</span></button>
-                    </div>
-                </div>
-                <div class=" absolute right-12 top-12">
-                    <img src="/image/logo light.png" alt="Logo" class="w-24">
-                </div>
-            </div>
-        </div>
+       <div class=" mx-2 md:mx-0">
+        <div style="background: linear-gradient(270deg, #00c19e00 0%, #020043bd 47%), url('./image/offer.png'); background-repeat: no-repeat; border-radius:20px; background-position: center; background-size: cover;">
+          <div class=" relative py-24 px-12 flex justify-between items-center">
+              <div class="md:w-2/5 w-full text-white">
+                  <h1 class="text-4xl font-semibold mb-6 leading-[54px] md:w-[70%] w-full">Get Your First Appointment at 50% Off!</h1>
+                  <div class="flex gap-6">
+                      <button class="py-2 px-4 bg-yellow-400 rounded-lg">Appointment <span>↗</span></button>
+                      <button class="py-2 px-4 border border-white rounded-lg text-white">Learn More <span>↗</span></button>
+                  </div>
+              </div>
+              <div class=" absolute right-12 top-12">
+                  <img src="./image/logo light.png" alt="Logo5" class="w-24">
+              </div>
+          </div>
+      </div>
+       </div>
     </section>
     <!-- Offer Section end -->
     <!-- footer Start -->
-    <footer class="bg-[#020043] py-14">
-        <div class=" max-w-6xl mx-auto text-[#FFFFF5]">
-            <img class=" mb-6" src="./image/logo light.png" alt="logo">
+    <footer class="bg-[#020043] py-14 ">
+        <div class="mx-2 md:mx-0">
+          <div class=" max-w-6xl mx-auto text-[#FFFFF5]">
+            <img class=" mb-6" src="./image/logo light.png" alt="logo1">
             <div class="flex md:flex-row flex-col  justify-between ">
                 <div class="">
                     <div>
@@ -404,6 +406,7 @@
                     <p class="mt-0 md:mt-7">@docplus 2024</p>
                 </div>
             </div>
+        </div>
         </div>
     </footer>
     <!-- footer End -->
